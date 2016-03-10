@@ -1,0 +1,192 @@
+
+.login
+{
+	background: url("../img/slide_1.jpg") 0 0 no-repeat;
+	.login-wrapper
+	{
+		@extend .container-fluid;
+		margin: 0 auto;
+		padding: 0;
+		max-width: 965px;
+
+		.login-left
+		{
+			width: 50%;
+			float: left;
+
+			h2
+			{
+				font-family: RobotoLight;
+				font-size: 36px;
+				color: white;
+			}
+
+			.login-slider
+			{
+				width: 354px;
+				background: url("../img/login_slider_back.png") 0 0 repeat;
+				margin: 90px 0 0 0;
+
+				.slick-prev, .slick-next 
+				{
+					position: absolute;
+					display: block;
+					height: 27px;
+					width: 14px;
+					line-height: 0px;
+					font-size: 0px;
+					cursor: pointer;
+					color: transparent;
+					top: 50%;
+					margin-top: -13.5px\9; /*lte IE 8*/
+					-webkit-transform: translate(0, -50%);
+					-ms-transform: translate(0, -50%);
+					transform: translate(0, -50%);
+					padding: 0;
+					border: none;
+					outline: none;
+
+					&:hover
+					{
+						opacity: 0.7;
+					}
+
+				}
+
+				.slick-prev 
+				{
+					z-index: 999;
+				    left: 12px;
+				    background: url("../img/login_slider_left.png") 0 0 no-repeat;
+				}
+
+				.slick-next 
+				{
+					z-index: 999;
+				    right: 12px;
+				    background: url("../img/login_slider_right.png") 0 0 no-repeat;
+				}
+
+				h5
+				{
+					font-family: RobotoRegular;
+					font-size: 14px;
+					padding-top: 26px;
+					text-align: center;
+					color: #cecece;
+				}
+
+				p
+				{
+					font-family: RobotoBold;
+					font-size: 18px;
+					text-align: center;
+					padding: 15px 45px 25px 45px;
+					color: #ffffff;
+				}
+			}
+		}
+
+		.login-right
+		{
+			font-family: RobotoRegular;
+			width: 50%;
+			float: left;
+
+			form
+			{
+				max-width: 375px;
+				width: 100%;
+				position: relative;
+				margin-left: auto;
+				padding: 40px 45px;
+				background: url("../img/form_back.png") 0 0 repeat;
+
+				.login-error
+				{
+					display: none;
+					background: url("../img/tooltip.png") 0 0 no-repeat;
+					width: 317px;
+					height: 128px;
+					padding: 25px 30px 20px 55px;
+					position: absolute;
+				    top: 41%;
+				    left: 50%;
+
+					p
+					{
+						&:nth-child(1)
+						{
+							font-family: RobotoLight;
+							color: #dd0009;
+							font-size: 24px;
+							margin: 0;
+						}
+
+						&:nth-child(2)
+						{
+							font-family: RobotoRegular;
+							color: #515151;
+							font-size: 13px;
+							margin-top: 15px;
+						}
+					}
+				}
+
+				input[type="text"]
+				{
+					border: none;
+					outline: none;
+					background: transparent;
+					border-bottom: 1px solid #c7c7c7;
+					width: 100%;
+					font-size: 14px;
+					color: #515151;
+					padding: 10px 0;
+					margin-top: 35px;
+				}
+
+				input[type="password"]
+				{
+					border: none;
+					outline: none;
+					background: transparent;
+					border-bottom: 1px solid #c7c7c7;
+					width: 100%;
+					font-size: 14px;
+					color: #515151;
+					padding: 10px 0;
+					margin-top: 35px;
+				}
+
+				input[type="submit"]
+				{
+					border: none;
+					outline: none;
+					background-color: #dd0008;
+					border-bottom: 1px solid #c7c7c7;
+					width: 100%;
+					font-family: RobotoBold;
+					font-size: 16px;
+					text-transform: uppercase;
+					color: #ffffff;
+					padding: 20px 0;
+					margin-top: 50px;
+				}
+
+				p
+				{
+					margin-top: 45px;
+					color: #dd0008;
+					font-size: 16px;
+
+					a
+					{
+						color: #dd0008;
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+	}
+}

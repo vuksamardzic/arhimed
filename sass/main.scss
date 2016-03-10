@@ -1,0 +1,21 @@
+// Import Bootstrap Compass integration
+@import "bootstrap-compass";
+
+// Import custom Bootstrap variables
+@import "0-plugin/bootstrap-variables";
+
+// Import Bootstrap for Sass
+@import "bootstrap";
+
+@import "compass/reset";
+
+@import "0-plugin/jquery.fullPage.scss";
+@import "0-plugin/slick.scss";
+
+@import "0-plugin/font.scss";
+@import "1-parts/menu.scss";
+@import "1-parts/login.scss";
+@import "1-parts/service.scss";
+@import "1-parts/trial.scss";
+@import "1-parts/contact.scss";
+

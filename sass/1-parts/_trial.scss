@@ -1,0 +1,95 @@
+
+.trial
+{
+	background: url("../img/slide_3.jpg") 0 0 no-repeat;
+
+	.trial-wrapper
+	{
+		@extend .container-fluid;
+		margin: 54px auto 0 auto;
+		padding: 0;
+		max-width: 965px;
+
+		.trial-left
+		{
+			width: 50%;
+			float: left;
+
+			h2
+			{
+				font-family: RobotoLight;
+				font-size: 36px;
+				color: white;
+			}
+		}
+
+		.trial-right
+		{
+			font-family: RobotoRegular;
+			width: 50%;
+			float: left;
+
+			form
+			{
+				max-width: 385px;
+				width: 100%;
+				position: relative;
+				margin-left: auto;
+				padding: 40px;
+				background: url("../img/form_back_trial.png") 0 0 repeat;
+
+				h3
+				{
+					font-family: RobotoLight;
+					font-size: 27px;
+					color: #ffffff;
+					padding-bottom: 25px;
+
+					span
+					{
+						font-family: RobotoBold;
+						color: #f6111b;
+						font-size: inherit;
+					}
+				}
+
+				span
+				{	
+
+					font-family: RobotoLight;
+					font-size: 13px;
+					color: #00ffff;
+				}
+
+				input[type="text"], input[type="email"], input[type="number"]
+				{
+					border: none;
+					outline: none;
+					background-color: transparent;
+					background-image: none;
+					border-bottom: 1px solid #595959;
+					width: 100%;
+					font-size: 14px;
+					color: #ffffff;
+					padding: 10px 0;
+					margin-top: 20px;
+				}
+
+				input[type="submit"]
+				{
+					border: none;
+					outline: none;
+					background-color: #dd0008;
+					border: none;
+					width: 100%;
+					font-family: RobotoBold;
+					font-size: 16px;
+					text-transform: uppercase;
+					color: #ffffff;
+					padding: 20px 0;
+					margin-top: 40px;
+				}
+			}
+		}
+	}
+}

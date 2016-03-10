@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Arhimed</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<link rel="icon" type="image/png" href="img/favico.png">
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<!--<script type="text/javascript" src="js/jquery.js"></script>-->
+<script type="text/javascript" src="js/slick.min.js"></script>
+
+<script type="text/javascript" src="js/parallax.min.js"></script>
+<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+<script type="text/javascript" src="js/mresize.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+</head>
+<body>
+
+<nav>
+	<ul id="myMenu">
+		<li data-menuanchor="first" ><a href="#first">Uloguj se</a></li>
+		<li data-menuanchor="second"><a href="#second">Usluge</a></li>
+		<li data-menuanchor="third"><a href="#third">Trial</a></li>
+		<li data-menuanchor="fourth"><a href="#fourth">Kontakt</a></li>
+	</ul>
+</nav>
+
+<div id="fullpage" ng-app="myApp">
+
+    <div class="section login"> <!--parallax-window" data-parallax="scroll" data-image-src="img/slide_1.jpg">-->
+
+    	<div class="login-wrapper" >
+    		<div class="login-left">
+
+    			<h2>Digitalna arhiva od preko<br> 2 miliona novinskih članaka,<br> 560 hiljada TV priloga<br> i emisija, kao preko<br> 1 milion web<br> članaka</h2>
+
+    			<div class="login-slider">
+    				<div class="">
+    					<h5>Elektronski medij</h5>
+    					<p>Ovdje stoji naslov nekog članka ili neke objave ili TV priloga</p>
+    				</div>
+    				<div>
+    					<h5>Elektronski medij</h5>
+    					<p>Ovdje stoji naslov nekog članka ili neke objave ili TV priloga</p>
+    				</div>
+    			</div>
+    		</div>
+
+    		<div class="login-right">
+    			<form id="form">
+    				<img src="img/form_logo.png" alt=""><br>
+    				<input type="text" placeholder="Koorisničko ime"><br>
+    				<div class="login-error">
+    					<p>Pogrešna autorizacija</p>
+    					<p>Ovaj korisnički nalog može da se koristi samo uz USB ključ koji vam je dostavljen.</p>
+    				</div>
+    				<input type="password" placeholder="Šifra"><br>
+    				<input type="submit" value="uloguj se"><br>
+    				<p>Ne možeš se ulogovati? <a href="">Kontaktiraj nas</a></p>
+    			</form>
+    		</div>
+    	</div>
+    	<!-- login end -->
+
+    </div>
+
+    <div class="section service">
+    	
+		<div class="service-slider">
+			<div class="arhiva">
+				<div class="inner-holder">
+					<img src="img/arhiva_back.png" alt="">
+					<h3>Arhiva medija</h3>
+					<p>Prva digitalizovana arhiva medijskih sadržaja u Crnoj Gori Prva digitalizovana arhiva medijskih sadržaja u Crnoj GoriPrva digitalizovana arhiva medijskih sadržaja u Crnoj GoriPrva digitalizovana arhiva medijskih sadržaja u Crnoj Gori</p>
+				</div>
+			</div>
+			<div class="clipping">
+				<div class="inner-holder">
+					<img src="img/clipping_back.png" alt="">
+					<h3>Press clipping</h3>
+					<p>Prva digitalizovana arhiva medijskih sadržaja u Crnoj Gori Prva digitalizovana arhiva medijskih sadržaja u Crnoj GoriPrva digitalizovana arhiva medijskih sadržaja u Crnoj GoriPrva digitalizovana arhiva medijskih sadržaja u Crnoj Gori</p>
+				</div>
+			</div>
+			<div class="diggest">
+				<div class="inner-holder">
+					<img src="img/diggest_back.png" alt="">
+					<h3>Press digest</h3>
+					<p>Prva digitalizovana arhiva medijskih sadržaja u Crnoj Gori Prva digitalizovana arhiva medijskih sadržaja u Crnoj GoriPrva digitalizovana arhiva medijskih sadržaja u Crnoj GoriPrva digitalizovana arhiva medijskih sadržaja u Crnoj Gori</p>
+				</div>
+			</div>
+			<div class="alert-clipping">
+				<div class="inner-holder">
+					<img src="img/alert_back.png" alt="">
+					<h3>Alert clipping</h3>
+					<p>Prva digitalizovana arhiva medijskih sadržaja u Crnoj Gori Prva digitalizovana arhiva medijskih sadržaja u Crnoj GoriPrva digitalizovana arhiva medijskih sadržaja u Crnoj GoriPrva digitalizovana arhiva medijskih sadržaja u Crnoj Gori</p>
+				</div>
+			</div>
+			<div class="analiza">
+				<div class="inner-holder">
+					<img src="img/analiza.png" alt="">
+					<h3>Analiza medija</h3>
+					<p>Prva digitalizovana arhiva medijskih sadržaja u Crnoj Gori Prva digitalizovana arhiva medijskih sadržaja u Crnoj GoriPrva digitalizovana arhiva medijskih sadržaja u Crnoj GoriPrva digitalizovana arhiva medijskih sadržaja u Crnoj Gori</p>
+				</div>
+			</div>
+			<div class="monitoring">
+				<div class="inner-holder">
+					<img src="img/monitoring_back.png" alt="">
+					<h3>Monitoring reklamiranja</h3>
+					<p>Prva digitalizovana arhiva medijskih sadržaja u Crnoj Gori Prva digitalizovana arhiva medijskih sadržaja u Crnoj GoriPrva digitalizovana arhiva medijskih sadržaja u Crnoj GoriPrva digitalizovana arhiva medijskih sadržaja u Crnoj Gori</p>
+				</div>
+			</div>
+			<div class="social">
+				<div class="inner-holder">
+					<img src="img/social_back.png" alt="">
+					<h3>Social medija analize</h3>
+					<p>Prva digitalizovana arhiva medijskih sadržaja u Crnoj Gori Prva digitalizovana arhiva medijskih sadržaja u Crnoj GoriPrva digitalizovana arhiva medijskih sadržaja u Crnoj GoriPrva digitalizovana arhiva medijskih sadržaja u Crnoj Gori</p>
+				</div>
+			</div>
+			<div class="istrazivanja">
+				<div class="inner-holder">
+					<img src="img/istrazivanja_back.png" alt="">
+					<h3>Istraživanje tržišta</h3>
+					<p>Prva digitalizovana arhiva medijskih sadržaja u Crnoj Gori Prva digitalizovana arhiva medijskih sadržaja u Crnoj GoriPrva digitalizovana arhiva medijskih sadržaja u Crnoj GoriPrva digitalizovana arhiva medijskih sadržaja u Crnoj Gori</p>
+				</div>
+			</div>
+			<div class="prevod">
+				<div class="inner-holder">
+					<img src="img/prevod_back.png" alt="">
+					<h3>Prevod</h3>
+					<p>Prva digitalizovana arhiva medijskih sadržaja u Crnoj Gori Prva digitalizovana arhiva medijskih sadržaja u Crnoj GoriPrva digitalizovana arhiva medijskih sadržaja u Crnoj GoriPrva digitalizovana arhiva medijskih sadržaja u Crnoj Gori</p>
+				</div>
+			</div>
+			<div class="transkript">
+				<div class="inner-holder">
+					<img src="img/transkript_back.png" alt="">
+					<h3>Transkript</h3>
+					<p>Prva digitalizovana arhiva medijskih sadržaja u Crnoj Gori Prva digitalizovana arhiva medijskih sadržaja u Crnoj GoriPrva digitalizovana arhiva medijskih sadržaja u Crnoj GoriPrva digitalizovana arhiva medijskih sadržaja u Crnoj Gori</p>
+				</div>
+			</div>
+			
+		</div>
+
+    </div>
+    <!-- section 2 end -->
+
+    <div class="section trial">
+
+    	<div class="trial-wrapper" >
+
+    		<div class="trial-left">
+				<h2>Provjerite zašto klijenti kažu<br>
+				da je naš press clipping<br>
+				nezamjenjiv alat u<br>
+				svakodnevnom <br>
+				poslu !</h2>
+    			<img src="img/trial_logo.png" alt="">
+    		</div>
+
+    		<div class="trial-right" >
+
+    			<form name="clippingForm" id="form"  ng-controller="formCtrl" autocomplete="off" novalidate>
+    				<h3>Isprobajte <span>Press Clipping</span></h3>
+    				<input type="text" ng-model="user.name" name="name" required><br>
+    				<span ng-show="clippingForm.name.$pristine && clippingForm.name.$touched || clippingForm.name.$error.required">Vaše ime je neophodno !</span>
+
+    				<input type="text" ng-model="user.company" name="company" required><br>
+    				<span ng-show="clippingForm.company.$pristine &&clippingForm.company.$touched || clippingForm.company.$error.required">Ime kompanije je neophodno !</span>
+
+    				<input type="email" name="email" ng-model="user.email" required><br>
+    				<span ng-show="clippingForm.email.$pristine && clippingForm.email.$error.required">Email je neophodan !</span>
+					<span ng-show="clippingForm.email.$touched && clippingForm.email.$error.email">Loš format, primjer (john.doe@gmail.com)</span>
+
+    				<input type="text" name="number" ng-pattern="/^[0-9]{6,11}$/" ng-model="user.phone" required><br>
+    				<span ng-show="clippingForm.number.$pristine && clippingForm.number.$error.required">Broj je neophodan !</span>
+    				<span ng-show="clippingForm.number.$touched && clippingForm.number.$error.pattern">Loš format broja (samo cifre 0-9)</span>
+
+    				<input type="text" ng-model="user.message"><br>
+    				<input type="submit" value="prijavi se" 
+    				ng-disabled="clippingForm.name.$invalid
+    							|| clippingForm.company.$invalid
+    							|| clippingForm.email.$invalid
+    							|| clippingForm.number.$invalid">
+    			</form>
+
+    		</div>
+    	</div>
+
+    	<!-- login end -->
+
+    </div>
+    <!-- section 3 end -->
+
+    <div class="section contact">
+    	
+    	<div id="map"></div>
+		<script>
+		function initMap() 
+		{
+			var mapDiv = document.getElementById('map');
+			var map = new google.maps.Map(mapDiv, 
+			{
+				/* neće da mi prihvati naše koordinate pa sam stavio random*/
+				center: {lat: 44.540123, lng: -78.546123},
+				zoom: 15,
+				                    styles: 
+					[
+					    {
+					        "featureType": "administrative",
+					        "elementType": "geometry.fill",
+					        "stylers": [
+					            {
+					                "color": "#a9ff00"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "administrative",
+					        "elementType": "labels",
+					        "stylers": [
+					            {
+					                "color": "#fcfcfc"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "administrative",
+					        "elementType": "labels.text.fill",
+					        "stylers": [
+					            {
+					                "color": "#735f36"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "administrative",
+					        "elementType": "labels.text.stroke",
+					        "stylers": [
+					            {
+					                "color": "#ffffff"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "landscape",
+					        "elementType": "all",
+					        "stylers": [
+					            {
+					                "color": "#f2f2f2"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "landscape",
+					        "elementType": "geometry.fill",
+					        "stylers": [
+					            {
+					                "lightness": "5"
+					            },
+					            {
+					                "saturation": "0"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "poi",
+					        "elementType": "all",
+					        "stylers": [
+					            {
+					                "visibility": "off"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "road",
+					        "elementType": "all",
+					        "stylers": [
+					            {
+					                "saturation": -100
+					            },
+					            {
+					                "lightness": 45
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "road.highway",
+					        "elementType": "all",
+					        "stylers": [
+					            {
+					                "visibility": "simplified"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "road.highway",
+					        "elementType": "geometry.fill",
+					        "stylers": [
+					            {
+					                "saturation": "-53"
+					            },
+					            {
+					                "color": "#f2000e"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "road.arterial",
+					        "elementType": "labels.icon",
+					        "stylers": [
+					            {
+					                "visibility": "off"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "transit",
+					        "elementType": "all",
+					        "stylers": [
+					            {
+					                "visibility": "off"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "water",
+					        "elementType": "all",
+					        "stylers": [
+					            {
+					                "color": "#d4e3e9"
+					            },
+					            {
+					                "visibility": "on"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "water",
+					        "elementType": "geometry.fill",
+					        "stylers": [
+					            {
+					                "color": "#bcbcb5"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "water",
+					        "elementType": "geometry.stroke",
+					        "stylers": [
+					            {
+					                "color": "#c8c8c8"
+					            }
+					        ]
+					    }
+					]
+
+			});
+
+            var marker = new google.maps.Marker({
+            	/* neće da mi prihvati naše koordinate pa sam stavio random*/
+                position: new google.maps.LatLng(44.540123,-78.546123),
+                map: map,
+                icon: 'img/Pin.png'
+            });
+
+		}
+		</script>
+		<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
+    	<div class="contact-wrapper" >
+
+    		<div class="contact-left">
+    			<form name="fForm" ng-controller="formCtrl1" autocomplete="off">
+    				<h3>Imate pitanje za nas?</h3>
+    				<input type="text" ng-model="user.name">
+    				<input type="email" class="left-m" ng-model="user.email"><br>
+    				<input type="text" ng-model="user.phone">
+    				<input type="text" class="left-m" ng-model="user.message"><br>
+    				<input type="submit" value="pošalji poruku"><br>
+    				<!-- isti princip svake forme -->
+    			</form>
+    		</div>
+
+    		<div class="contact-right">
+	    		<h2>Arhimed d.o.o.</h2>
+	    		<p>Ulica Vlaha Bukovca br. 48, Stari aerodrom<br>  81000 Podgorica, Crna Gora<br>
+	    		Tel: +382 (20) 240 077 / Mob: +382 (0)67 255 835<br>
+	    		info@arhimed.me<br>
+	    		<a href="http://arhimed.me/" target="_new">www.arhimed.me</a></p>
+	    		<p>Pib: 02882922  /  Pdv: 30/31-11354-6 <br>Ž.r. 520-19719-88 - Hipotekarna banka Pg.</p>
+    		</div>
+
+    	</div>
+
+    </div>
+    <!-- secition 4 end -->
+
+</div>
+
+<script>
+	var app = angular.module('myApp', []);
+	app.controller('formCtrl', function($scope) {
+	    $scope.user = {
+	    					name: "Vaše ime *",
+	    					company: "Kompanija *",
+	    					email: "Email *",
+	    					phone: "Telefon *",
+	    					message: "Poruka"
+	    				};
+	});
+	app.controller('formCtrl1', function($scope) {
+    $scope.user = {
+    					name: "Vaše ime",
+    					email: "Email",
+    					phone: "Telefon",
+    					message: "Poruka"
+    				};
+	});
+
+</script>
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+
+	$('#fullpage')
+	.fullpage({
+		anchors: ['first', 'second', 'third', 'fourth', 'lastPage'],
+		menu: '#myMenu'
+	});
+
+	$('.login-slider').slick();
+
+	$(".service-slider").slick({
+		dots : true,
+		draggable : false,
+		speed : 500,
+		easing : "easeInBack"
+	});
+
+	var footerh = $(".section.contact.fp-section.fp-table").height();
+	var cr = $(".contact-right").outerHeight();
+	var cont = $(".contact-wrapper").height();
+
+	$("#map").css("height", footerh - cr - 54);
+	$(".contact-wrapper").css("margin-bottom", cr - cont)
+
+	var h = $(".service-slider.slick-initialized.slick-slider").height();
+	var w = $(".service-slider.slick-initialized.slick-slider").width();
+
+	$(".transkript").css("height", h - 140 - 54);
+	$(".arhiva").css("height", h - 140 - 54);
+	$(".clipping").css("height", h - 140 - 54);
+	$(".diggest").css("height", h - 140 - 54);
+	$(".alert-clipping").css("height", h - 140 - 54);
+	$(".analiza").css("height", h - 140 - 54);
+	$(".monitoring").css("height", h - 140 - 54);
+	$(".social").css("height", h - 140 - 54);
+	$(".istrazivanja").css("height", h - 140 - 54);
+	$(".prevod").css("height", h - 140 - 54);
+
+	$(".service-slider .slick-prev").css("top", (h - 140) / 2 );
+	$(".service-slider .slick-next").css("top", (h - 140) / 2 );
+
+	$(".service-slider .slick-prev").css("left", w / 2 - 468 / 2 + 15);
+	$(".service-slider .slick-next").css("right", w / 2 - 468 / 2 + 15);
+
+	$(".service-slider .slick-prev").click(function(){
+	    $(".service-slider .slick-prev").hide(100);
+	    $(".service-slider .slick-prev").show(400);
+	    $(".service-slider .slick-next").hide(100);
+	    $(".service-slider .slick-next").show(400);
+	});
+
+	$(".slick-dots button").click(function(){
+	    $(".service-slider .slick-prev").hide(100);
+	    $(".service-slider .slick-prev").show(400);
+	    $(".service-slider .slick-next").hide(100);
+	    $(".service-slider .slick-next").show(400);
+	});
+
+	$(".service-slider .slick-next").click(function(){
+	    $(".service-slider .slick-next").hide(100);
+	    $(".service-slider .slick-next").show(400);
+	    $(".service-slider .slick-prev").hide(100);
+	    $(".service-slider .slick-prev").show(400);
+	});
+
+
+    (function($){
+        $(window).load(function(){
+            $(".service-slider.slick-initialized.slick-slider").on("mresize",function(){
+				h = $(".service-slider.slick-initialized.slick-slider").height();
+				w = $(".service-slider.slick-initialized.slick-slider").width();
+				$(".transkript").css("height", h - 140 - 54);
+				$(".arhiva").css("height", h - 140 - 54);
+				$(".clipping").css("height", h - 140 - 54);
+				$(".diggest").css("height", h - 140 - 54);
+				$(".alert-clipping").css("height", h - 140 - 54);
+				$(".analiza").css("height", h - 140 - 54);
+				$(".monitoring").css("height", h - 140 - 54);
+				$(".social").css("height", h - 140 - 54);
+				$(".istrazivanja").css("height", h - 140 - 54);
+				$(".prevod").css("height", h - 140 - 54);
+
+				$(".service-slider .slick-prev").css("top", (h - 140) / 2 );
+				$(".service-slider .slick-next").css("top", (h - 140) / 2 );
+
+				$(".service-slider .slick-prev").css("left", w / 2 - 468 / 2 + 15);
+				$(".service-slider .slick-next").css("right", w / 2 - 468 / 2 + 15);
+
+				footerh = $(".section.contact.fp-section.fp-table").height();
+				cr = $(".contact-right").outerHeight();
+				cont = $(".contact-wrapper").height();
+
+				$("#map").css("height", footerh - cr - 54);
+				$(".contact-wrapper").css("margin-bottom", cr - cont)
+
+            });
+        });
+    })(jQuery);
+
+	$(".slick-dots li:nth-child(1) button").html('Arhiva <br> medija');
+	$(".slick-dots li:nth-child(2) button").html('Press <br> clipping');
+	$(".slick-dots li:nth-child(3) button").html('Press <br> digest');
+	$(".slick-dots li:nth-child(4) button").html('Alert <br> clipping');
+	$(".slick-dots li:nth-child(5) button").html('Analiza <br> medija');
+	$(".slick-dots li:nth-child(6) button").html('Monitoring <br> reklamiranja');
+	$(".slick-dots li:nth-child(7) button").html('Social medija <br> analize');
+	$(".slick-dots li:nth-child(8) button").html('Istraživanje <br> tržišta');
+	$(".slick-dots li:nth-child(9) button").html('Prevod');
+	$(".slick-dots li:nth-child(10) button").html('Transkript');
+
+	$( "#form img" )
+	.mouseenter(function() {
+		$(".login-error").css("display", "block");
+	})
+	.mouseleave(function() {
+		$(".login-error").css("display", "none");
+	});
+
+});
+	
+</script>
+
+</body>
+</html>
